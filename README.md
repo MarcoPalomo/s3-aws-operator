@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 #### Playing with operator-sdk. Period. 
 #### Don't reinvent the wheel !!🤣
 
 
 # s3-aws
 // TODO(user): Add simple overview of use/purpose
-=======
-# s3-aws kubernetes operator
-Manage and see the status your S3s buckets from your kubernetes cluster. 
->>>>>>> 42811e7f17602cf8f316b500769f54b5da42e029
 
 ## Description
 ...
