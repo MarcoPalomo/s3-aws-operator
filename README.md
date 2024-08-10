@@ -3,7 +3,7 @@
 
 
 # s3-aws
-// TODO(user): Add simple overview of use/purpose
+Managing S3 status from your kubernetes command line end.
 
 ## Description
 ...
