@@ -1,8 +1,8 @@
-# s3-aws
-// TODO(user): Add simple overview of use/purpose
+# s3-aws kubernetes operator
+Manage and see the status your S3s buckets from your kubernetes cluster. 
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+...
 
 ## Getting Started
 
