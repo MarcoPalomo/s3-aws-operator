@@ -1,3 +1,7 @@
+#### Playing with operator-sdk. Period. 
+#### Don't reinvent the wheel !!🤣
+
+
 # s3-aws
 // TODO(user): Add simple overview of use/purpose
 
