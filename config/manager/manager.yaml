@@ -49,7 +49,8 @@ spec:
       #             values:
       #               - linux
       securityContext:
-        runAsNonRoot: true
+        runAsNonRoot: false #Error: container has runAsNonRoot and image will run as root 
+        # (pod: "s3-aws-controller-manager-779574dd99-85gzh_s3-aws-system(cb19d34c-8eb9-48e0-a588-5146aff36625)", container: manager)
         # TODO(user): For common cases that do not require escalating privileges
         # it is recommended to ensure that all your Pods/Containers are restrictive.
         # More info: https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted
@@ -62,7 +63,7 @@ spec:
         - /manager
         args:
         - --leader-elect
-        image: controller:latest
+        image: cirrusci/aws-s3-proxy
         name: manager
         env:
         - name: S3_IMAGE
